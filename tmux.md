@@ -23,7 +23,7 @@ This note is based on [this blog](https://www.cnblogs.com/wangqiguo/p/8905081.ht
 
 #### pane
 * `ctrl+b %`: vertical split
-* `ctrl+b "`: horizontal splt
+* `ctrl+b "`: horizontal split
 * `ctrl+b o`: one by one
 * `ctrl+b up,down,left,right`: arrow switch
 * `ctrl+b <space>`: rearrangement of all panes
