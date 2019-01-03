@@ -1,5 +1,5 @@
 # Notes for some command tools
-### tmux
+## tmux
 This note is based on [this blog](https://www.cnblogs.com/wangqiguo/p/8905081.html)
 #### session
 * `tmux new -s session_name`: create a new session(cmd in shell)
