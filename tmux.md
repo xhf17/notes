@@ -3,7 +3,7 @@
 This note is based on [this blog](https://www.cnblogs.com/wangqiguo/p/8905081.html)
 #### session
 * `tmux new -s session_name`: create a new session(cmd in shell)
-* `ctrl+b d`: * detach * session, return to shell
+* `ctrl+b d`: **detach** session, return to shell
 * `tmux ls`: session list(cmd in shell)
 * `ctrl+b s`: session list
 * `tmux a -t session_name`: enter a session(cmd in shell)
@@ -13,9 +13,9 @@ This note is based on [this blog](https://www.cnblogs.com/wangqiguo/p/8905081.ht
 * `ctrl+b $`: rename a session
  
 #### window
-* `ctrl+b c`: ** create ** a window
-* `ctrl+b p`: ** previous **  window
-* `ctrl+b n`: ** next ** window
+* `ctrl+b c`: **create** a window
+* `ctrl+b p`: **previous**  window
+* `ctrl+b n`: **next** window
 * `ctrl+b w`: list all window
 * `ctrl+b l`: neighbor window
 * `ctrl+b 2`: switch to 2rd window
