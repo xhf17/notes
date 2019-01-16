@@ -7,6 +7,7 @@
     * [other operations](#other-operation)
   * [window](#window)
   * [some other useful commands](#some-other-useful-commands)
+  * [search](#search)
   
 ## vim
 This note is for **buffer**, **window**, **tab**, This note is based on [this blog](https://sanctum.geek.nz/arabesque/buffers-windows-tabs/) and [tab](http://vim.wikia.com/wiki/Using_tab_pages) and [buffer](http://vim.wikia.com/wiki/Easier_buffer_switching)
@@ -54,3 +55,7 @@ A window in Vim is a viewport onto a single buffer. When you open a new window w
 * `:vnew filename`: Open a new window beside the current window
 * `:split filename`: Edit the specified file in new window above the current window
 * `:vsplit filename`: Edit the specified file in a new window beside the current window
+#### search
+refer to [usage](http://vim.wikia.com/wiki/Searching)  and [pattern](http://vim.wikia.com/wiki/Search_patterns) for more infomation
+* `*`, `#`: search forward, backward
+
