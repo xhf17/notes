@@ -56,6 +56,6 @@ A window in Vim is a viewport onto a single buffer. When you open a new window w
 * `:split filename`: Edit the specified file in new window above the current window
 * `:vsplit filename`: Edit the specified file in a new window beside the current window
 #### search
-refer to [usage](http://vim.wikia.com/wiki/Searching), [pattern](http://vim.wikia.com/wiki/Search_patterns) [vimregex](http://vimregex.com/) for more infomation
+refer to [usage](http://vim.wikia.com/wiki/Searching), [pattern](http://vim.wikia.com/wiki/Search_patterns), [vimregex](http://vimregex.com/) for more infomation
 * `*`, `#`: search forward, backward
 
