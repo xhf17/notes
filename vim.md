@@ -1,4 +1,13 @@
 # Notes for some command tools
+# Notes
+* [vim](#vim)
+  * [buffer](#buffer)
+  * [tab](#tab)
+    * [Navigation](#Navigation)
+    * [other operations](#other_operations)
+  * [window](#window)
+  * [some other useful commands](#some_other_useful_commands)
+  
 ## vim
 This note is for **buffer**, **window**, **tab**, This note is based on [this blog](https://sanctum.geek.nz/arabesque/buffers-windows-tabs/) and [tab](http://vim.wikia.com/wiki/Using_tab_pages) and [buffer](http://vim.wikia.com/wiki/Easier_buffer_switching)
 
