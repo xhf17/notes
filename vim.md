@@ -8,11 +8,6 @@ This note is for **buffer**, **window**, **tab**, This note is based on [this bl
 * `:b`, `:bu`, `:buf filename`, `:buffer 5`: abbreviated switch to another buffer, can be given either the name or the number of the buffer to edit. 
 * `:bp`, `:bn`: previous buffer, next buffer
 * `5<C-^>` or `5<C-6>`: An alternative which can be used from normal mode, switch to 5.
-
-#### window
-A window in Vim is a viewport onto a single buffer. When you open a new window with `:split` or `:vsplit`, you can include a filename in the call. This opens the file in a new buffer, and then opens a new window as a view onto it. A buffer can be viewed in multiple windows within a single Vim session; you could have a hundred windows editing the same buffer if you wanted to.
-
-
 #### tab
 ###### Navigation
 * `gt`: Go to next tab
@@ -39,6 +34,8 @@ A window in Vim is a viewport onto a single buffer. When you open a new window w
 * `:tab drop file`: open {file} in a new tab, or jump to a window/tab containing the file if there is one
 * `:tab split`: copy the current window to a new tab of its own
 * A command like `:sp myfile.txt` creates a new window in the current tab editing the specified file. That window can be moved to a new tab by pressing `Ctrl-W T`, and can be copied to a new tab with the command `:tab sp`(split the current window, but open the split in a new tab). 
+#### window
+A window in Vim is a viewport onto a single buffer. When you open a new window with `:split` or `:vsplit`, you can include a filename in the call. This opens the file in a new buffer, and then opens a new window as a view onto it. A buffer can be viewed in multiple windows within a single Vim session; you could have a hundred windows editing the same buffer if you wanted to.
 
 #### some other useful commands
 * `zz`: Center the current line within the window
