@@ -1,6 +1,6 @@
 # Notes for some command tools
 ## vim
-This note is for **buffer**, **window**, **tab**, This note is based on [this blog](https://sanctum.geek.nz/arabesque/buffers-windows-tabs/)
+This note is for **buffer**, **window**, **tab**, This note is based on [this blog](https://sanctum.geek.nz/arabesque/buffers-windows-tabs/) and [this](http://vim.wikia.com/wiki/Using_tab_pages)
 
 #### buffer
 * `:ls`: a quick list of the buffers open in a Vim session
@@ -10,12 +10,31 @@ A window in Vim is a viewport onto a single buffer. When you open a new window w
 * `ctrl+b c`: **create** a window
 
 #### tab
-* `:tabn` and `:tabp`: flick back and forth between the tabs
-* `:tabnew`: Open a new tab
-* `:tabedit <filename>`: Edit the file with the provided name in a new tab
-* `gt`: Go to next tab open
+###### Navigation
+* `gt`: Go to next tab
 * `gT`: Go to previous tab
+* `{i}gt`: go to tab in position i
+* `:tabn` and `:tabp`: flick back and forth between the tabs
+* `:tabfirst`: go to first tab
+* `:tablast`: go to last tab
+* `:tabs`: list all tabs including their displayed windows
+* `:tabm 0`: move current tab to first
+* `:tabm:` move current tab to last
+* `:tabm {i}`: move current tab to position i+1
+* `Ctrl-PgDn`: go to next tab(also in insert mode)
+* `Ctrl-PgUp`: go to previous tab(also in insert mode)
+###### other operation
+* `:tabnew`: Open a new tab
+* `:tabedit/:tabe <filename>`: Edit the file with the provided name in a new tab
 * `<Ctrl-w> T`: Break the current window out to a new tab
+* `:tabclose` or `ctrl-w c`: close current tab
+* `:tabclose i`: close i-th tab
+* `:tabonly`: close all other tabs (show only the current tab)
+* `:tab all`: show each buffer in a tab (up to 'tabpagemax' tabs)
+* `:tab help`: open a new help window in its own tab page
+* `:tab drop file`: open {file} in a new tab, or jump to a window/tab containing the file if there is one
+* `:tab split`: copy the current window to a new tab of its own
+* A command like `:sp myfile.txt` creates a new window in the current tab editing the specified file. That window can be moved to a new tab by pressing `Ctrl-W T`, and can be copied to a new tab with the command `:tab sp`(split the current window, but open the split in a new tab). 
 
 #### some other useful commands
 * `zz`: Center the current line within the window
