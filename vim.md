@@ -11,3 +11,11 @@ A window in Vim is a viewport onto a single buffer. When you open a new window w
 
 #### tab
 *`:tabn` and `:tabp`: flick back and forth between the tabs
+#### some other useful commands
+*`zz`: Center the current line within the window
+*`zt`: Bring the current line to the top of the window
+*`zb`: Bring the current line to the bottom of the window
+*`:new [filename]`: Open a new window above the current window
+*`:vnew [filename]`: Open a new window beside the current window
+*`:split <filename>`: Edit the specified file in new window above the current window
+*`:vsplit <filename>`: Edit the specified file in a new window beside the current window
