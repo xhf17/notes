@@ -4,7 +4,7 @@
   * [buffer](#buffer)
   * [tab](#tab)
     * [Navigation](#Navigation)
-    * [other operations](#other-operations)
+    * [other operations](#other-operation)
   * [window](#window)
   * [some other useful commands](#some-other-useful-commands)
   
