@@ -2,6 +2,7 @@
 * [NLP](#NLP)
   * [embedding](#embedding)
   * [seq2seq](#seq2seq)
+  * [question answer](#question-answer)
 * [ML](#ML)
 * [paper notes](#paper-notes)
 ## NLP
@@ -16,6 +17,8 @@
 * [A structured self-attentive sentence embedding](https://arxiv.org/pdf/1703.03130.pdf)
 * [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025.pdf)
 * [A Neural Conversational Model](https://arxiv.org/pdf/1506.05869.pdf), **[notes](paper_notes/A_Neural_Conversational_Model.md)**
+### question answer
+* SQuAD 2.0, [paper](https://arxiv.org/pdf/1806.03822.pdf), [datasets](https://rajpurkar.github.io/SQuAD-explorer/)
 ## ML
 * [PAMI papers](https://www.computer.org/csdl/trans/tp/index.html)
 ## paper notes
