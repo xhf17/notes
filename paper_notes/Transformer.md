@@ -1,4 +1,4 @@
-## [All papers](papers.md)
+## [All papers](../papers.md)
 ## [Attention is all you need, Transformer paper](https://arxiv.org/pdf/1706.03762.pdf)
 1. abstract:
     1. Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.
