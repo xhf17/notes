@@ -1,9 +1,13 @@
 # Notes for papers
 * [NLP](#NLP)
+  * [embedding](#embedding)
   * [seq2seq](#seq2seq)
 * [ML](#ML)
   
 ## NLP
+### embedding
+* [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/pubs/glove.pdf)
+* [Word2Vec Tutorial - The Skip-Gram Model](http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/)
 ### seq2seq
 * [Sequence to Sequence Learning with Neural Networks](https://arxiv.org/pdf/1409.3215.pdf)
 * [Neural Machine Translation By Jointly Learning to Align and Translation, Original sequence-to-sequence + attention paper](https://arxiv.org/pdf/1409.0473.pdf)
