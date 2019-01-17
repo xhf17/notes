@@ -14,9 +14,12 @@
 * [Neural Machine Translation By Jointly Learning to Align and Translation, Original sequence-to-sequence + attention paper](https://arxiv.org/pdf/1409.0473.pdf)
 * [Attention is all you need, Transformer paper](https://arxiv.org/pdf/1706.03762.pdf)
   #### notes
-  * abstract:
+  1. abstract:
     1. Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.
     2. df
+  2. introduction
+  3. architecture
+  4. conclusion
 * [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
 * [A structured self-attentive sentence embedding](https://arxiv.org/pdf/1703.03130.pdf)
 * [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025.pdf)
