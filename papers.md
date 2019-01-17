@@ -25,8 +25,11 @@
     * it only gives simple, short, sometimes unsatisfying answers to our questions.
     * another problematic drawback is that the model does not capture a consistent personality. Indeed, if we ask not identical but semantically similar questions, the answers can sometimes be inconsistent.  This is expected due to the simplicity of model and the dataset in experiments.
     > *Human*: what is your job ?
+    
     > *Machine*: i’m a lawyer.
+    
     > *Human*: what do you do ?
+    
     > *Machine*: i’m a doctor.
 ## ML
 * [PAMI papers](https://www.computer.org/csdl/trans/tp/index.html)
