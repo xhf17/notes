@@ -1,6 +1,5 @@
-# Notes for some command tools
 ## Tex 
-#### Reference: [zhihu](https://www.zhihu.com/question/49681542), 
+#### Reference: [zhihu](https://www.zhihu.com/question/49681542), [一份其实很短的 LaTeX 入门文档](https://liam.page/2014/09/08/latex-introduction/)
 #### About Latex and Tex
 * LaTeX 是用 TeX 写的,是指 LaTeX 是使用 TeX 这种宏语言所编写的宏集,并并作为一种格式固定下来。LaTeX 的内核（latex.ltx）就是用 TeX 语言编写的，比如 center 环境就是这样定义的：
     ```
@@ -38,7 +37,10 @@
 TeX - pdfTeX - XeTeX - LuaTeX 都是排版引擎，按照先进程度递增（LuaTeX 尚未完善）。
 LaTeX 是一种格式，基于 TeX 格式定义了很多更方便使用的控制命令。上述四个引擎都有对应的程序将 LaTeX 格式解释成引擎能处理的内容。
 CTeX, MiKTeX, TeX Live 都是 TeX 的发行，他们是许许多多东西的集合。
+#### [addition](https://liam.page/texlive/)
+CTeX 套装是科学院吴凌云研究员的个人作品。在 CTeX 套装刚刚问世之时，因其解决了繁琐的中文字体安装工作，所以广受欢迎。但是，一方面 CTeX 套装已经很久不更新，内里的宏包、工具陈旧；另一方面，随着 XeLaTeX 的发展，以及 xeCJK 等技术的成熟，上述这些繁琐的工作已经没有必要而失去意义；因此，现在不推荐使用 CTeX 套装。
 
+虽然它的名字也是「CTeX」，但是 CTeX 宏集和 CTeX 套装是两个不同的东西。CTeX 宏集是集成了中文支持、操作系统判定、字体选择、版式预设为一体的一组宏包和文档类的合集。我们推荐在任何情况下，优先使用 CTeX 宏集处理中文。
 #### 发行版
 
 
