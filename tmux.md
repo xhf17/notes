@@ -29,3 +29,7 @@ This note is based on [this blog](https://www.cnblogs.com/wangqiguo/p/8905081.ht
 * `ctrl+b <space>`: rearrangement of all panes
 * `ctrl+b z`: maximum current pane, restore after double cmds
 * `ctrl+b x`: exit current pane
+
+#### shadowsocks
+* vim /etc/shadowsocks.json
+* ssserver -c /etc/shadowsocks.json -d start 
