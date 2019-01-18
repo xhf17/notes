@@ -15,7 +15,7 @@
 * [Attention is all you need, Transformer paper](https://arxiv.org/pdf/1706.03762.pdf), **[notes](paper_notes/Transformer.md)**
 * [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
 * [A structured self-attentive sentence embedding](https://arxiv.org/pdf/1703.03130.pdf)
-* [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025.pdf)
+* [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025.pdf), **[notes](paper_notes/LuongAttention.md)**
 * [A Neural Conversational Model](https://arxiv.org/pdf/1506.05869.pdf), **[notes](paper_notes/A_Neural_Conversational_Model.md)**
 ### question answer
 * SQuAD 2.0, [paper](https://arxiv.org/pdf/1806.03822.pdf), [datasets](https://rajpurkar.github.io/SQuAD-explorer/)
