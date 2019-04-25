@@ -6,7 +6,9 @@ This note is based on [this blog](https://www.cnblogs.com/wangqiguo/p/8905081.ht
 * `ctrl+b d`: **detach** session, return to shell
 * `tmux ls`: session list(cmd in shell)
 * `ctrl+b s`: session list
-* `tmux a -t session_name`: enter a session(cmd in shell)
+* `tmux a -t session_name`: Attach to a new session, enter a session(cmd in shell)
+* `tmux switch -t [name]`: Switch to a session
+* `tmux detach OR ctrl - b - d`: Detach from a session
 * `tmux kill-session -t session_name`: kill a session(cmd in shell)
 * `ctrl+b :` and `kill-session -t session_name`: kill session
 * `tmux rename -t old new`: rename a session(cmd in shell)
