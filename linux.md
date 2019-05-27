@@ -24,3 +24,17 @@ Copy directory from local host to a remote hos SCP example:
 Copy file from remote host to remote host SCP example:
 
     `scp username@from_host:/remote/directory/file.txt username@to_host:/remote/directory/`
+
+#### sed
+
+remove the line and print the output to standard out/or a new file:
+
+    `sed '/pattern to match/d' filein > fileout`
+
+directly modify the file:
+
+    `sed -i '/pattern/d' file`
+
+Here -v will print only other than your pattern (that means invert match):
+
+    `grep -v 'pattern' file`
