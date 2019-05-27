@@ -25,8 +25,7 @@ Copy file from remote host to remote host SCP example:
 
     `scp username@from_host:/remote/directory/file.txt username@to_host:/remote/directory/`
 
-#### sed
-
+#### sed: [useful sed examples](https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/)
 remove the line and print the output to standard out/or a new file:
 
     `sed '/pattern to match/d' filein > fileout`
