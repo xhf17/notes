@@ -37,3 +37,7 @@ directly modify the file:
 Here -v will print only other than your pattern (that means invert match):
 
     `grep -v 'pattern' file`
+    
+GPU types:
+
+    `nvidia-smi -L`
