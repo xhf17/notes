@@ -16,6 +16,7 @@ This note is for **buffer**, **window**, **tab**, This note is based on [this bl
 #### .vimrc
 * First install [Vundle](https://github.com/VundleVim/Vundle.vim)
 * copy `.vimrc`
+* `:source ~/.vimrc` reload vimrc
 
 #### buffer
 * `:ls`, `:files`, `: buffers`: a quick list of the buffers open in a Vim session
