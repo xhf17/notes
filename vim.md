@@ -12,6 +12,11 @@
 ## vim
 This note is for **buffer**, **window**, **tab**, This note is based on [this blog](https://sanctum.geek.nz/arabesque/buffers-windows-tabs/) and [tab](http://vim.wikia.com/wiki/Using_tab_pages) and [buffer](http://vim.wikia.com/wiki/Easier_buffer_switching)
 
+
+#### .vimrc
+* First install [Vundle](https://github.com/VundleVim/Vundle.vim)
+* copy `.vimrc`
+
 #### buffer
 * `:ls`, `:files`, `: buffers`: a quick list of the buffers open in a Vim session
 * `:ls!`: Unlisted buffers can be included
