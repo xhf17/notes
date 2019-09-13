@@ -70,7 +70,7 @@ refer to [usage](http://vim.wikia.com/wiki/Searching), [pattern](http://vim.wiki
   * [grep](#grep)
   * [vimregx](#vimregx)
   * [shell](#shell)
-#### grep
+#### grep [Click here for more](https://www.cnblogs.com/peida/archive/2012/12/17/2821195.html)
 * `grep -in '[\.$]' filename`: line end with char '.'
 * `grep -in 'g..d' filename.txt`: count, ignore case, line. good, gasd, begin with g, end with d, two chars.  '.' represents exactly one char.
 * `grep -in  'go\+d' file.txt`: + means one or more. 
