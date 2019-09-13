@@ -65,3 +65,15 @@ A window in Vim is a viewport onto a single buffer. When you open a new window w
 refer to [usage](http://vim.wikia.com/wiki/Searching), [pattern](http://vim.wikia.com/wiki/Search_patterns), [vimregex](http://vimregex.com/) for more infomation
 * `*`, `#`: search forward, backward
 
+
+* [regx](#regx)
+  * [grep](#grep)
+  * [vimregx](#vimregx)
+  * [shell](#shell)
+#### grep
+* `grep -in '[\.$]' filename`: line end with char '.'
+* `grep -in 'g..d' filename.txt`: count, ignore case, line. good, gasd, begin with g, end with d, two chars.  '.' represents exactly one char.
+* `grep -in  'go\+d' file.txt`: + means one or more. 
+* `grep -in  'go*d' file.txt`: * means zero or more. 
+* `grep -in  'go\?d' file.txt`: ? means zero or one.
+* `grep -in  'go\{2,\}d' file.txt`: {} means times occurs. {} has special meaning in shell.
