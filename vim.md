@@ -1,6 +1,7 @@
 # Notes for some command tools
 # Notes
 * [vim](#vim)
+  * [edit files](#edit-files)
   * [buffer](#buffer)
   * [tab](#tab)
     * [Navigation](#Navigation)
@@ -17,13 +18,23 @@ This note is for **buffer**, **window**, **tab**, This note is based on [this bl
 * First install [Vundle](https://github.com/VundleVim/Vundle.vim)
 * copy `.vimrc`
 * `:source ~/.vimrc` reload vimrc
-
+#### edit files
+* `vim file1.txt file2.txt`:
+* `:e /path/file.txt`: edit two files
+* `:read file2.txt`: read the content of another file to current file directly below the current cursor
+* `:8read file2.txt`: the content of file2.txt being placed the line below the specified line 8
+* `:read !ls -a | grep '^\.' | grep --invert-match '\.DS_Store\|\.$'`: read from shell command output
+* `:new`, `:vnew`: horizontal, vertical split window
+* `:enew`: no split
+* `:tabnew`: a new tab
 #### buffer
 * `:ls`, `:files`, `: buffers`: a quick list of the buffers open in a Vim session
 * `:ls!`: Unlisted buffers can be included
 * `:b`, `:bu`, `:buf filename`, `:buffer 5`: abbreviated switch to another buffer, can be given either the name or the number of the buffer to edit. 
 * `:bp`, `:bn`: previous buffer, next buffer
-* `5<C-^>` or `5<C-6>`: An alternative which can be used from normal mode, switch to 5.
+* `b5`, `5<C-^>` or `5<C-6>`: An alternative which can be used from normal mode, switch to 5.
+* `bf`, `bl`, `bm`: first, last, next modified buffer
+* `b#`: alternative buffer, toggle
 #### tab
 ###### Navigation
 * `gt`: Go to next tab
