@@ -18,19 +18,25 @@ This note is based on [this blog](https://www.cnblogs.com/wangqiguo/p/8905081.ht
 * `ctrl+b c`: **create** a window
 * `ctrl+b p`: **previous**  window
 * `ctrl+b n`: **next** window
+* `ctrl+b 2`: switch to 2rd window
 * `ctrl+b w`: list all window
 * `ctrl+b l`: neighbor window
-* `ctrl+b 2`: switch to 2rd window
 * `ctrl+b &`: close window
-
+* `ctrl+b ,`: rename window
 #### pane
 * `ctrl+b %`: vertical split
 * `ctrl+b "`: horizontal split
 * `ctrl+b o`: one by one
 * `ctrl+b up,down,left,right`: arrow switch
+* `ctrl+b ;`: switch to last pane, usually used to move back and forth between two commonly used panes
+* `ctrl+b !`: break a pane out into a separate window
+* `ctrl+b }`: rotate the pane clockwise
+* `ctrl+b {`: rotate the pane counterclockwise
 * `ctrl+b <space>`: rearrangement of all panes
 * `ctrl+b z`: maximum current pane, restore after double cmds
 * `ctrl+b x`: exit current pane
+* `ctr+d`: kill pane
+* `ctr+b q`: show the number of panes, and during the number is visible, typing the relevent number
 
 #### shadowsocks
 * vim /etc/shadowsocks.json
